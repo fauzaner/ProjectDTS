@@ -1,0 +1,64 @@
+
+* {
+ padding: 0;
+ margin: 0;
+}
+body {
+ font-family: harrington;
+ background: url(../images/yt.jpg);
+}
+#container {
+ padding: 15px;
+}
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 20px;
+ background: white;
+  border-radius: 15px;
+}
+.login h1, p {
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+label {
+  font-size: 10pt;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+
+.tombol {
+  font-family: inherit;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 20px;
+  padding: 10px;
+  color: #555;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top:10px;
+}
+
+.tombol:hover{
+  color: #000;
+}
+
+a.tombol{
+  text-decoration: none;
+  float: right;
+  background-color: lawngreen;
+}

@@ -1,0 +1,129 @@
+.navbar-brand {
+  font-family: Roboto Mono;
+  font-size: 36px;
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.tombol-button {
+  border-radius: 10px;
+  background-color: #655eb0;
+  font-size: 20px;
+}
+
+.tombol-button1 {
+  border-radius: 40px;
+  background-color: #68ca87;
+  font-size: 24px;
+}
+
+.dropdown-menu {
+  background-color: #ffe598;
+}
+
+.Extra {
+  margin-top: 40px;
+  padding: 5rem 1rem;
+  font-size: 20px;
+}
+
+.Extra1 {
+  padding: 5rem 25rem;
+  font-size: 20px;
+}
+
+.Extra-Jumb {
+  margin-top: 100px;
+  padding: 1rem 1rem;
+}
+
+.cards2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: -9rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  margin-top: -5rem;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: -5rem;
+}
+
+.card-single {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 10px #b8b9be, 6px 6px 6px #655eb0;
+  box-shadow: 3px 3px 10px #b8b9be, 6px 6px 6px #655eb0;
+  padding: 2rem;
+  border-radius: 20px;
+  padding-left: 65px;
+  height: min-content;
+}
+
+.card-single1 {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 10px #b8b9be, 6px 6px 6px #655eb0;
+  box-shadow: 3px 3px 10px #b8b9be, 6px 6px 6px #655eb0;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.card-single div:first-child span {
+  color: #5b9fbd;
+  font-family: Roboto Slab;
+}
+
+.jumbotron {
+  background-size: 50px;
+  border-radius: 40px;
+}
+.display-4 {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.title {
+  font-size: 40px;
+  color: #5b9fbd;
+}
+
+/* Footer */
+
+.list-inline {
+  content: "";
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background-color: black;
+  border-radius: all;
+  text-align: justify;
+}
+
+.list-inline-item {
+  padding: 2em;
+  font-weight: 500;
+  color: white;
+}
+
+.list-inline-item p {
+  font-weight: 300;
+  padding: 25px 0;
+  margin-right: 1em;
+  display: block;
+}

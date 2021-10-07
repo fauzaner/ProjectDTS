@@ -1,0 +1,152 @@
+/* Navbar */
+
+.navbar{
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-family: Roboto Mono;
+    font-size: 36px;
+  }
+  
+  .nav-link {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .tombol-button {
+    border-radius: 10px;
+    background-color: #655eb0;
+    font-size: 20px;
+  }
+  
+  .tombol-button1 {
+    border-radius: 40px;
+    background-color: #68ca87;
+    font-size: 24px;
+  }
+  
+  .dropdown-menu {
+    background-color: #fff;
+  }
+  
+  /* Jumbotron */
+  
+  .jumbotron {
+    background-image: url("../images/backgroundsekolah.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+  }
+  
+  .jumbotron .container {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .jumbotron .display-4 {
+    color: #fff;
+    margin-top: 100px !important;
+    font-weight: 500;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    font-size: 28px;
+  }
+  
+  .jumbotron h1 {
+    margin-bottom: 50px;
+    }
+
+  .jumbotron .display-4 span {
+    font-weight: 200;
+    font-size: 20px;
+    text-align: right;
+  }
+  /* Info Panel */
+  
+  .info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .info-panel h4 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2px;
+    text-align: center;
+  }
+  
+  .info-panel p {
+    font-size: 16px;
+    color: #acacac;
+    margin-top: -1px;
+    font-weight: 200;
+    text-align: justify;
+  }
+  
+  .panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  /*footer */
+  
+  .list-inline {
+    content: "";
+    background-color: black;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  .list-inline-item {
+    padding: 2em 2em 0px 2em;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .list-inline-item p {
+    font-weight: 300;
+    padding-top: 25px;
+    margin-right: 1em;
+    display: block;
+  }
+
+  .list-inline .list-contact{
+    padding-top: 1px;
+    padding-bottom: 20px;
+  }
+  /* DESKTOP VERSION */
+  
+  .jumbotron {
+    margin-top: -10px;
+    height: 640px;
+    text-align: center;
+  }
+  .jumbotron .display-4 {
+    font-size: 30px;
+  }
+  .jumbotron .display-4 span {
+    font-weight: 200;
+    font-size: 30px;
+  }
+  
